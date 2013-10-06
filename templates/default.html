@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lesica.com</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="icon" type="image/png" href="img/icon.png" />
+    <link type="text/css" rel="stylesheet" href="css/custom.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+    </script>
+<head>
+<body>
+    <div id="container">
+        {% if type != 'page' %}
+        <div id="header">
+            <h1><a href="#">Lesica.com</a></h1>
+        </div>
+        {% endif %}
+
+        <div id="menu" class="{% block menu_type %}small-menu{% endblock %}">
+            <ul>
+                <li class="home-link"><a href="index.html">Home</a></li>
+                {% for c in categories %}
+                <li><a href="{{ c.link }}.html">{{ c.nice_title|capitalize }}</a></li>
+                {% endfor %}
+                {% block menu %}
+                {% endblock %}
+            </ul>
+        </div>
+
+        <div id="content">
+            <div class="content-item">
+                {{ html_content }}
+
+                {% if type == 'category' %}
+                <h2>{{ nice_title|capitalize }}</h2>
+                <ul id="page-menu">
+                    {% for p in cat_pages[raw_title]|sort(reverse=True, attribute='raw_date') %}
+                    <li>
+                        <a href="{{ p.link|e }}.html">{{ p.nice_title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+                {% if type == 'index' %}
+                <h2>Index</h2>
+                <ul id="page-menu">
+                    {% for p in all_pages|sort(reverse=True, attribute='raw_date') %}
+                    <li>
+                        <a href="{{ p.link|e }}.html">{{ p.nice_title }}</a>
+                        {% if p.cat_names %}
+                        <ul class="cat-menu">
+                            {% for c in p.cat_names %}
+                            <li><a href="{{ c }}.html">{{ c }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+
+        <div id="footer" class="page-element">
+            <p><small>Contents copyright by George Lesica - Licensed <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">CC BY-SA</a></small></p>
+        </div>
+    </div>
+</body>
+</html>
