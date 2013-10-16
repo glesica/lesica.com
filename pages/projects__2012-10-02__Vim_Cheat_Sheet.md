@@ -5,6 +5,9 @@ Almost every day I discover some new trick I didn't know the day before. So I'm
 going to start putting those tricks here, when I remember, for my benefit and
 the benefit of others. This is my personal Vim cheat sheet.
 
+There are some useful links at the bottom of the page as well. These include
+tutorials and general reference sites.
+
 <table>
     <thead>
         <tr><th>Command</th><th>Description</th></tr>
@@ -99,3 +102,7 @@ the benefit of others. This is my personal Vim cheat sheet.
         respectively.</td></tr>
     </tbody>
 </table>
+
+## References
+
+  * [A Vim Primer](http://danielmiessler.com/study/vim/)
