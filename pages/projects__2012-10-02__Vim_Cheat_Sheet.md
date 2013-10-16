@@ -94,5 +94,8 @@ the benefit of others. This is my personal Vim cheat sheet.
 
         <tr><td><code>c{MOVEMENT}</code></td><td>Delete (cut) the result of the
         next movement command and enter insert mode.</td></tr>
+
+        <tr><td><code>CTRL-Y / CTRL-E</code></td><td>Move viewport down or up
+        respectively.</td></tr>
     </tbody>
 </table>
