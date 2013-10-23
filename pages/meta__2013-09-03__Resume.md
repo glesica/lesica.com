@@ -6,9 +6,10 @@ tricky problems.
 
 ### Employment
 
+  * Goomzee Corporation (Software Engineer)
   * The University of Montana, Department of Computer Science (Teaching
     Assistant)
-  * Essentia Communications, Consultant, front-end development
+  * Essentia Communications, (Consultant, front-end development)
   * Eastern Illinois University, College of Sciences (Assistant to the Dean)
   * Lake Land College, Division of Social Sciences (Adjunct Instructor)
 
