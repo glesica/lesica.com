@@ -29,3 +29,4 @@ Here's a list of what I'm using now:
   * [github](https://github.com/vim-scripts/github-theme) - Color theme
   * [sensible](https://github.com/tpope/vim-sensible) - Good default settings
   * [elixir](https://github.com/elixir-lang/vim-elixir) - Elixir support
+  * [signify](https://github.com/mhinz/vim-signify) - SCM diffs
