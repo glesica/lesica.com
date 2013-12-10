@@ -11,3 +11,9 @@ commands that I tend to forget since I don't use them all that often.
     
     # Undo the previous commit to fix an error
     $ git reset --soft HEAD^
+
+    # Show differences between two branches
+    $ git diff --name-status <branch1>..<branch2>
+
+    # Revert a specific commit, removing it from history
+    $ git revert <hash>
