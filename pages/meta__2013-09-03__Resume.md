@@ -16,9 +16,9 @@ tricky problems.
 ### Relevant Skills
 
   * Programming languages:
-     * Competent: Python, PHP, R, C, Java, Javascript, SQL
-     * Learning: Rust, Julia, Elixir
-  * Applications: Apache, MySQL
+     * Competent: Python, PHP, R, C, Javascript, SQL, Julia
+     * Learning: Rust, Elixir, Haskell
+  * Applications: Nginx, MySQL, Ansible, Neo4j, Redis
   * Operating systems: Linux (Debian, Ubuntu), OS X, Windows Server
   * Miscellaneous: LaTeX, HTML, CSS
 
@@ -38,4 +38,3 @@ tricky problems.
     including *The Today Show* and appeared in *Businessweek* magazine.
   * Member, Chicago Linux Users Group (2006-2012)
   * Member, Montana Programmers (2013-present)
-
