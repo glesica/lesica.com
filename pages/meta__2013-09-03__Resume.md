@@ -1,11 +1,12 @@
 # Resume
 
-I'm George. I'm a graduate student in computer science at The University of
-Montana (in lovely Missoula). I enjoy thinking about (and hopefully solving!)
-tricky problems.
+I'm George. I'm a software engineer at Workiva, Inc. (in lovely Missoula).
+I enjoy thinking about (and hopefully solving!) tricky problems.
 
 ### Employment
 
+  * Workiva, Inc. (Software engineer)
+  * Datamaglia, LLC (Co-founder, software engineer)
   * Goomzee Corporation (Software Engineer)
   * The University of Montana, Department of Computer Science (Teaching
     Assistant)
@@ -16,11 +17,11 @@ tricky problems.
 ### Relevant Skills
 
   * Programming languages:
-     * Competent: Python, PHP, R, C, Javascript, SQL, Julia
-     * Learning: Rust, Elixir, Haskell
+     * Competent: Python, R, C, Javascript, Julia, Dart
+     * Learning: Rust, Elixir, Haskell, Nim
   * Applications: Nginx, MySQL, Ansible, Neo4j, Redis
   * Operating systems: Linux (Debian, Ubuntu), OS X, Windows Server
-  * Miscellaneous: LaTeX, HTML, CSS
+  * Miscellaneous: LaTeX, SQL
 
 ### Education
 
