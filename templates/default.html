@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Lesica.com</title>
+    <title>{{ nice_title }} | Lesica.com</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <link rel="icon" type="image/png" href="img/icon.png" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/custom.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript">
@@ -30,6 +31,10 @@
 
         <div id="content">
             <div class="content-item">
+                {% if type == 'page' %}
+                <p><small><em>Published: {{ raw_date }}</em></small></p>
+                {% endif %}
+
                 {{ html_content }}
 
                 {% if type == 'category' %}
