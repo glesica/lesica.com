@@ -7,7 +7,7 @@ along with my adviser, an implementation of [Cartesian Genetic
 Programming](http://www.cartesiangp.co.uk/) for the Julia programming language,
 [CGP.jl](https://github.com/glesica/CGP.jl) as well as a library for working
 with NK fitness landscapes, also for Julia,
-[NK.jl](https://github.com/glesica/NK.jl). You can [read my
+[NKLandscapes.jl](https://github.com/glesica/NKLandscapes.jl). You can [read my
 thesis](https://github.com/glesica/fitness-thesis) (as it is written) as well.
 
 Apart from evolutionary computation, I am interested in distributed systems,
