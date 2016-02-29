@@ -42,9 +42,6 @@ th, td {
     padding: 0.125em 0.5em;
     border-right: 1px solid #ccc;
 }
-li li {
-    margin-left: 1.0em;
-}
 
 #container {
     max-width: 50.0em;
