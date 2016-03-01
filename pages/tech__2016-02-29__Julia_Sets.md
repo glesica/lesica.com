@@ -7,7 +7,7 @@ myself and to help seed the webs with correct information.
 
 Say you have a type like the one defined below:
 
-```{julia}
+```julia
 type Point
   x::Int64
   y::Int64
@@ -18,7 +18,7 @@ Now, what if you wanted to store points in a set, perhaps you're keeping track
 of some kind of drawing operation and once a point is drawn, drawing it again
 is just a waste of time.
 
-```{julia}
+```julia
 s = Set{Point}()
 push!(s, Point(2, 3))
 push!(s, Point(2, 3))
@@ -27,7 +27,7 @@ println(s)
 
 The code above would result in the following output:
 
-```
+```julia
 Set([Point(2,3),Point(2,3)])
 ```
 
@@ -38,7 +38,7 @@ in this case that isn't enough.
 
 The trick is two implement two methods for our `Point` type: `==`, and `hash`:
 
-```{julia}
+```julia
 import Base: ==, hash
 
 ==(l::Point, r::Point) = l.x == r.x && l.y == r.y
@@ -50,7 +50,7 @@ as they reflect the comparison behavior we wish to implement.
 
 So that's it, if we retry the code above, we'll see the following output:
 
-```{julia}
+```julia
 Set([Point(2,3)])
 ```
 
