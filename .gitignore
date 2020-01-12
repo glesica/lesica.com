@@ -1,4 +1,4 @@
-_build/
-convert.py
 *~
 *.swp
+.DS_Store
+
